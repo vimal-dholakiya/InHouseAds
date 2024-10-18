@@ -1,0 +1,3 @@
+rootProject.name = "Ads2024"
+include ':app'
+include ':Ads2024'
