@@ -22,6 +22,8 @@ public class MainActivity extends BaseAdsClass {
             public Void call() throws Exception {
 
                 Toast.makeText(MainActivity.this, adsPrefernce.extrapara3(), Toast.LENGTH_SHORT).show();
+
+
                 return null;
 
             }

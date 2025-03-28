@@ -215,6 +215,12 @@ public class AdsPrefernce {
         return adsPreference.getBoolean("isInHouseAdLoaded", false);
     }
 
+    public void clearPreferences() {
+        editor.clear(); // Clears all the stored values
+        editor.apply(); // Apply changes
+    }
+
+
 }
 
 

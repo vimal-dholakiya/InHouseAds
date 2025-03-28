@@ -96,6 +96,7 @@ public class BaseAdsClass extends AppCompatActivity implements NetworkStateRecei
 
 
         if (!isLoaded_ADS) {
+            adsPrefernce.clearPreferences();
             getAdsx();
 
         }
